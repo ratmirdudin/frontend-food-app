@@ -1,0 +1,33 @@
+@import "../../common/colors.scss";
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  white-space: pre-wrap;
+  margin: 30px;
+  width: 200px;
+  height: 100px;
+  color: $font-primary;
+  transition: 500ms; /* Время эффекта */
+  &:hover {
+    transform: scale(1.09);
+  }
+  a {
+    color: $font-primary;
+    transition: 500ms;
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+}
+
+img {
+  border: $secondary-color solid 3px;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  letter-spacing: 2px;
+}

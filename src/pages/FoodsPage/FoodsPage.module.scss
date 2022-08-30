@@ -1,0 +1,44 @@
+.container {
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+
+    .page-button {
+      margin: 5px;
+      background-color: black;
+    }
+  }
+
+  button {
+    cursor: pointer;
+    //min-width: 100%;
+    appearance: none;
+    border: red 2px solid;
+    //border: 2px;
+    border-radius: 5px;
+    background-color: transparent;
+    //background: #596c87;
+    color: black;
+    //background: #4676D7;
+    //color: #fff;
+
+    padding: 7px 10px;
+    font-weight: 500;
+    font-size: 14px;
+
+    transition: 0.1s;
+    &:hover {
+      transform: scale(1.09);
+    }
+  }
+}
+
+.foods {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

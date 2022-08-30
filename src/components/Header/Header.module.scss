@@ -1,0 +1,132 @@
+@import "../../common/colors.scss";
+
+.container {
+  //background-color: $secondary-color;
+  //height: 70px;
+  //padding: 0 60px;
+  //display: flex;
+  //align-items: center;
+  //justify-content: space-between;
+
+
+  //a {
+  //  padding: 0 5px 0 0;
+  //  cursor: pointer;
+  //  color: $font-secondary;
+  //  font-weight: 600;
+  //  letter-spacing: 1px;
+  //  transition: 0.2s;
+  //
+  //  &:hover {
+  //    color: $link-hover-color;
+  //  }
+  //}
+
+  //button {
+  //  cursor: pointer;
+  //  //min-width: 100%;
+  //  appearance: none;
+  //  border: 0;
+  //  border-radius: 5px;
+  //  background: #596c87;
+  //  color: #fff;
+  //  //background: #4676D7;
+  //  //color: #fff;
+  //
+  //  padding: 7px 10px;
+  //  font-weight: 500;
+  //  font-size: 14px;
+  //
+  //  transition: 0.1s;
+  //
+  //  &:hover {
+  //    transform: scale(1.09);
+  //  }
+  //}
+
+  //.logo {
+  //  display: flex;
+  //  justify-content: center;
+  //  align-items: center;
+  //  text-align: center;
+  //  background-color: $logo-color;
+  //  color: $font-primary;
+  //  font-weight: 600;
+  //  font-size: 20px;
+  //  padding: 12px;
+  //  border: black 2px solid;
+  //  //box-shadow: 0px 7px 8px 0px rgba(34, 60, 80, 0.2);
+  //}
+
+  //ul {
+  //  list-style: none;
+  //}
+
+  //li {
+  //  padding: 7px;
+  //  display: inline-block;
+  //
+  //  a {
+  //    display: block;
+  //    color: $font-secondary;
+  //    font-weight: 500;
+  //    letter-spacing: 1px;
+  //  }
+  //}
+
+
+  //.search {
+  //  //display: block;
+  //  //margin: auto 0;
+  //
+  //  input {
+  //    color: $font-primary;
+  //    background-color: $primary-color;
+  //    padding: 7px 20px;
+  //    width: 200px;
+  //    border: 2px solid $secondary-color;
+  //    border-radius: 12px;
+  //    outline: none;
+  //    -webkit-transition: 0.5s;
+  //    transition: 0.5s;
+  //
+  //    &:focus {
+  //      //width: 300px;
+  //      //background-color: blue;
+  //      border: 3px solid $link-hover-color;
+  //      border-radius: 10px;
+  //    }
+  //
+  //    &::placeholder {
+  //      //color: dimgray;
+  //      letter-spacing: 3px;
+  //    }
+  //  }
+  //
+  //
+  //}
+
+
+  //.account {
+  //  display: flex;
+  //  align-items: center;
+  //  span {
+  //    cursor: pointer;
+  //  }
+  //}
+
+
+  //.submitted {
+  //  background: #585858;
+  //  cursor: default;
+  //}
+}
+
+.header {
+  padding: 20px;
+  background-color: $secondary-color;
+  color: $font-secondary;
+}
+
+.inner {
+}

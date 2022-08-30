@@ -1,0 +1,28 @@
+@import "../../common/colors.scss";
+
+.footer {
+  display: flex;
+  margin-top: auto;
+  padding: 15px 20px;
+  background-color: $secondary-color;
+  color: $font-secondary;
+}
+
+.inner {
+  margin: 0 auto;
+}
+
+.text {
+  margin: auto 0;
+}
+
+.link {
+  font-weight: 500;
+  color: $font-secondary;
+
+  transition: color 0.2s linear;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}

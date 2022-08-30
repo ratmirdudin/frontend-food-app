@@ -1,0 +1,10 @@
+@import "../../common/colors";
+
+.container {
+  border-radius: 15px;
+  padding: 30px;
+  background-color: $card-color;
+  -webkit-box-shadow: -4px 4px 9px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -4px 4px 9px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: -4px 4px 9px 0px rgba(34, 60, 80, 0.2);
+}
